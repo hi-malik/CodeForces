@@ -5,6 +5,7 @@ public class Problem282A{
         int n = scn.nextInt();
         int count = 0;
         while(n-- >= 1){
+            // Learned to add, string
             String str = scn.next();
             if(str.charAt(0) == 'X'){
                 if(str.charAt(1) == '+') count++;
