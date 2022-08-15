@@ -7,11 +7,11 @@ public class problem4a{
         // System.out.println("Print Here");
     }
     public static void func(int n){
-        if(n % 2 == 0){
-            System.out.println("Yes");
+        if(n % 2 == 0 && n > 2){
+            System.out.println("YES");
         }
         else{
-            System.out.println("No");
+            System.out.println("NO");
         }
     }
 }
